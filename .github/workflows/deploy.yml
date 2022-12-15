@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: checkout 
         uses: actions/checkout@v3
-      - name: greet people
+      - name: 'greet people'
         id: hellow
         uses: ./
         with:
